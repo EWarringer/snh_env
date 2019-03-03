@@ -11,6 +11,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+gem 'bootstrap-sass'
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -28,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+
+gem 'gsdk', '>= 1.0.0.4'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
