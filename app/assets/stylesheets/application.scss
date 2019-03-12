@@ -17,30 +17,55 @@
  @import "bootstrap-sprockets";
  @import 'bootstrap';
 
- .navbar-form {margin-top:21px;}
  body, html {height: 100%;width: 100%;}
  .main {height: 100%;width: 100%;}
 
+ .navbar {
+   // background-image: linear-gradient(
+   //  to bottom,
+   //  rgba(0,82,33,1),
+   //  transparent
+   // );
+   border: 0;
+   font-size: 16pt;
+   font-weight: bold;
+ }
+ .nav {
+   color: black;
+ }
+ .navbar-form {margin-top:21px;}
+
  .bg {
-     background: image-url(background);
-     height: 100%;
-     width: 100%;
-     padding-left: 0;
-     padding-right: 0;
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: repeat-y;
-     background-size: cover;
+   background: image-url(background);
+   height: 100%;
+   width: 100%;
+   padding-left: 0;
+   padding-right: 0;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: repeat-y;
+   background-size: cover;
  }
 
- .service_bar {
-   padding: 50px 100px;
-   position:absolute;
-   bottom:100vh;
+ .welcome {
+   height: 60vh;
+   margin-top:10vh;
+   bottom:70vh;
    width:100%;
+   margin-bottom: 1px;
+ }
+
+ .service-bar {
+   background:rgba(255,255,255,0.5);
+   width:100%;
+   height: 30vh;
+   padding: 50px 100px;
+   font-size: 10pt;
+
  }
 
  .testone {
+   background-color: #000000;
    padding: 500px 100px;
    font-size: 10pt;
    font-weight: bold;
@@ -48,7 +73,6 @@
  }
 
  .testbartwo {
-   background-color: #ffffff;
    width:100%;
    padding: 50px 100px;
  }
